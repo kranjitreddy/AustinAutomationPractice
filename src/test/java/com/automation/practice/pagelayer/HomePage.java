@@ -26,9 +26,9 @@ public class HomePage extends TestInitialization {
 	By loginButton=By.xpath("//*[@id='SubmitLogin']/span");
 	By retrieveEmailId=By.xpath("//*[@id='form_forgotpassword']/fieldset/p/button/span");
 	By retrieveSuccessMessage=By.xpath("//*[@id='center_column']/div/p");
+	By headerLogo=By.xpath("//img[@alt='My Store']");
 	
-	
-	
+	By emptyCart =By.xpath("//*[@id='header']//span[contains(text(),'empty')]");
 	//Constructor for the home page to Initialize the driver 
 	
 	public HomePage(WebDriver driver)
@@ -40,6 +40,33 @@ public class HomePage extends TestInitialization {
 	
 	
 	//WebElement Actions for the Objects in the HomePage 
+	
+	public boolean checkCartItems()
+	{
+		try{
+		boolean result=driver.findElement(emptyCart).isDisplayed();
+		return result;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
+		
+	}
+	public boolean checkLogo() {
+		try {
+			boolean value = driver.findElement(headerLogo).isDisplayed();
+			
+			return value;
+		} catch (Exception e) {
+			return false;
+		}
+
+	}
+	public String getLogoText()
+	{
+		return driver.findElement(headerLogo).getText();
+	}
 	
 	public String getRetrieveSuccessMessage()
 	{

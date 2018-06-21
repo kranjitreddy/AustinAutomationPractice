@@ -8,6 +8,9 @@
 		<classes>
 			<class name="com.automation.practice.TestScripts.ForgotEmailIdTestCase"/>
 			<class name="com.automation.practice.TestScripts.HomePageSignInCases"/>
+			<class name="com.automation.practice.TestScripts.EmptyCartTestCase"/>
+			<class name="com.automation.practice.TestScripts.LogoCheckTestCase"/>
+			
 		</classes>
 	</test> <!-- Test -->
 	
