@@ -1,63 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="33613" started-at="2018-06-21T05:17:30Z" finished-at="2018-06-21T05:18:04Z">
+  <suite name="RegressionSuite" duration-ms="53276" started-at="2018-06-21T18:28:02Z" finished-at="2018-06-21T18:28:55Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="33613" started-at="2018-06-21T05:17:30Z" finished-at="2018-06-21T05:18:04Z">
+    <test name="LoginTest" duration-ms="53276" started-at="2018-06-21T18:28:02Z" finished-at="2018-06-21T18:28:55Z">
       <class name="com.automation.practice.TestScripts.LogoCheckTestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@5383967b]" name="setup" is-config="true" duration-ms="7797" started-at="2018-06-21T00:17:56Z" finished-at="2018-06-21T00:18:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@a67c67e]" name="setup" is-config="true" duration-ms="10682" started-at="2018-06-21T13:28:26Z" finished-at="2018-06-21T13:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LogoTest1()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@5383967b]" name="LogoTest1" duration-ms="58" started-at="2018-06-21T00:18:03Z" finished-at="2018-06-21T00:18:04Z">
+        <test-method status="PASS" signature="LogoTest1()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@a67c67e]" name="LogoTest1" duration-ms="74" started-at="2018-06-21T13:28:37Z" finished-at="2018-06-21T13:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoTest1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@5383967b]" name="tearDown" is-config="true" duration-ms="436" started-at="2018-06-21T00:18:04Z" finished-at="2018-06-21T00:18:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.LogoCheckTestCase@a67c67e]" name="tearDown" is-config="true" duration-ms="928" started-at="2018-06-21T13:28:37Z" finished-at="2018-06-21T13:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.practice.TestScripts.LogoCheckTestCase -->
-      <class name="com.automation.practice.TestScripts.EmptyCartTestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@4fe3c938]" name="setup" is-config="true" duration-ms="8032" started-at="2018-06-21T00:17:48Z" finished-at="2018-06-21T00:17:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="emptyCartCheck()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@4fe3c938]" name="emptyCartCheck" duration-ms="99" started-at="2018-06-21T00:17:56Z" finished-at="2018-06-21T00:17:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emptyCartCheck -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@4fe3c938]" name="tearDown" is-config="true" duration-ms="2327" started-at="2018-06-21T00:17:56Z" finished-at="2018-06-21T00:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.automation.practice.TestScripts.EmptyCartTestCase -->
       <class name="com.automation.practice.TestScripts.ForgotEmailIdTestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@1e127982]" name="setUp" is-config="true" duration-ms="11087" started-at="2018-06-21T00:17:30Z" finished-at="2018-06-21T00:17:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@31610302]" name="setUp" is-config="true" duration-ms="16087" started-at="2018-06-21T13:28:02Z" finished-at="2018-06-21T13:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgotEmailId()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@1e127982]" name="forgotEmailId" duration-ms="4077" started-at="2018-06-21T00:17:41Z" finished-at="2018-06-21T00:17:46Z">
+        <test-method status="PASS" signature="forgotEmailId()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@31610302]" name="forgotEmailId" duration-ms="3845" started-at="2018-06-21T13:28:18Z" finished-at="2018-06-21T13:28:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotEmailId -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@1e127982]" name="tearDown" is-config="true" duration-ms="2020" started-at="2018-06-21T00:17:46Z" finished-at="2018-06-21T00:17:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@31610302]" name="tearDown" is-config="true" duration-ms="1638" started-at="2018-06-21T13:28:22Z" finished-at="2018-06-21T13:28:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.practice.TestScripts.ForgotEmailIdTestCase -->
-      <class name="com.automation.practice.TestScripts.HomePageSignInCases">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@2ac273d3]" name="setUp" is-config="true" duration-ms="16220" started-at="2018-06-21T00:17:30Z" finished-at="2018-06-21T00:17:47Z">
+      <class name="com.automation.practice.TestScripts.EmptyCartTestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@21213b92]" name="setup" is-config="true" duration-ms="13643" started-at="2018-06-21T13:28:23Z" finished-at="2018-06-21T13:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="emptyCartCheck()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@21213b92]" name="emptyCartCheck" duration-ms="119" started-at="2018-06-21T13:28:37Z" finished-at="2018-06-21T13:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.EmptyCartTestCase@21213b92]" name="tearDown" is-config="true" duration-ms="2518" started-at="2018-06-21T13:28:37Z" finished-at="2018-06-21T13:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.practice.TestScripts.EmptyCartTestCase -->
+      <class name="com.automation.practice.TestScripts.ContactUsPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.ContactUsPageTestCases@3327bd23]" name="setUp" is-config="true" duration-ms="8187" started-at="2018-06-21T13:28:38Z" finished-at="2018-06-21T13:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@2ac273d3]" name="loginTest" duration-ms="8576" started-at="2018-06-21T00:17:47Z" finished-at="2018-06-21T00:17:55Z">
+        <test-method status="PASS" signature="chooseDropDownValue()[pri:0, instance:com.automation.practice.TestScripts.ContactUsPageTestCases@3327bd23]" name="chooseDropDownValue" duration-ms="6498" started-at="2018-06-21T13:28:46Z" finished-at="2018-06-21T13:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseDropDownValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.ContactUsPageTestCases@3327bd23]" name="tearDown" is-config="true" duration-ms="2119" started-at="2018-06-21T13:28:53Z" finished-at="2018-06-21T13:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.practice.TestScripts.ContactUsPageTestCases -->
+      <class name="com.automation.practice.TestScripts.HomePageSignInCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@71318ec4]" name="setUp" is-config="true" duration-ms="13604" started-at="2018-06-21T13:28:02Z" finished-at="2018-06-21T13:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@71318ec4]" name="loginTest" duration-ms="8909" started-at="2018-06-21T13:28:15Z" finished-at="2018-06-21T13:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@2ac273d3]" name="quitBrowser" is-config="true" duration-ms="502" started-at="2018-06-21T00:17:55Z" finished-at="2018-06-21T00:17:56Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@71318ec4]" name="quitBrowser" is-config="true" duration-ms="2191" started-at="2018-06-21T13:28:24Z" finished-at="2018-06-21T13:28:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

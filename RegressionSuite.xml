@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="RegressionSuite" parallel="methods" thread-count="2" preserve-order="true" >
+<suite name="RegressionSuite" parallel="classes" thread-count="2" preserve-order="true" >
+
+
+<listeners>
+<!-- <listener class-name="com.automation.practice.listeners.Listener"></listener>  -->
+<listener class-name="com.automation.practice.listeners.RetryListener"></listener> 
+</listeners>
 
 	<test name="LoginTest">
 		
@@ -10,6 +16,7 @@
 			<class name="com.automation.practice.TestScripts.HomePageSignInCases"/>
 			<class name="com.automation.practice.TestScripts.EmptyCartTestCase"/>
 			<class name="com.automation.practice.TestScripts.LogoCheckTestCase"/>
+			<class name="com.automation.practice.TestScripts.ContactUsPageTestCases"></class>
 			
 		</classes>
 	</test> <!-- Test -->

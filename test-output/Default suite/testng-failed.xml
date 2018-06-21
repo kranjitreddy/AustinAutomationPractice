@@ -6,7 +6,6 @@
       <class name="com.automation.practice.TestScripts.LogoCheckTestCase">
         <methods>
           <include name="LogoTest1"/>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.automation.practice.TestScripts.LogoCheckTestCase -->
