@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite" parallel="methods" thread-count="2" preserve-order="true" >
+
+	<test name="LoginTest">
+		
+		<classes>
+			<class name="com.automation.practice.TestScripts.ForgotEmailIdTestCase"/>
+			<class name="com.automation.practice.TestScripts.HomePageSignInCases"/>
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

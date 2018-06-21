@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="22103" started-at="2018-06-21T03:43:15Z" finished-at="2018-06-21T03:43:37Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="22103" started-at="2018-06-21T03:43:15Z" finished-at="2018-06-21T03:43:37Z">
+      <class name="com.automation.practice.TestScripts.ForgotEmailIdTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@6e1ec318]" name="setUp" is-config="true" duration-ms="16700" started-at="2018-06-20T22:43:15Z" finished-at="2018-06-20T22:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotEmailId()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@6e1ec318]" name="forgotEmailId" duration-ms="4515" started-at="2018-06-20T22:43:31Z" finished-at="2018-06-20T22:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotEmailId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.practice.TestScripts.ForgotEmailIdTestCase@6e1ec318]" name="tearDown" is-config="true" duration-ms="867" started-at="2018-06-20T22:43:36Z" finished-at="2018-06-20T22:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.practice.TestScripts.ForgotEmailIdTestCase -->
+      <class name="com.automation.practice.TestScripts.HomePageSignInCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@5ce81285]" name="setUp" is-config="true" duration-ms="11384" started-at="2018-06-20T22:43:15Z" finished-at="2018-06-20T22:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@5ce81285]" name="loginTest" duration-ms="8690" started-at="2018-06-20T22:43:26Z" finished-at="2018-06-20T22:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.automation.practice.TestScripts.HomePageSignInCases@5ce81285]" name="quitBrowser" is-config="true" duration-ms="1315" started-at="2018-06-20T22:43:35Z" finished-at="2018-06-20T22:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.automation.practice.TestScripts.HomePageSignInCases -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
